@@ -1,9 +1,8 @@
-FROM node:14-bullseye-slim
+FROM node:16-alpine
 
 LABEL maintainer="Jamie <jamie@colournodes.com>"
 
-RUN apt-get update -y && \
-    apt-get install -y ca-certificates curl wget jq git zip unzip dnsutils && \
+RUN apk add --update --no-cache git && \
     useradd -m -d /home/container container
 
 ENV HOME /home/container

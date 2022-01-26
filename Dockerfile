@@ -2,16 +2,15 @@ FROM node:16-alpine
 
 LABEL maintainer="Jamie <jamie@colournodes.com>"
 
+COPY ./entrypoint.sh /entrypoint.sh
+
 RUN apk add --update --no-cache git && \
-    useradd -m -d /home/container container
+    adduser -D -h /home/container container && \
+    chmod +x /entrypoint.sh
 
-ENV HOME /home/container USER container
 USER container
+ENV HOME=/home/container USER=container
+WORKDIR /home/container
 
-COPY ./shell/dashactyl.sh /
-COPY ./entrypoint.sh /
 
-RUN chmod +x /dashactyl.sh
-RUN chmod +x /entrypoint.sh
-
-CMD [ "/bin/bash", "/entrypoint.sh" ]
+CMD ["/bin/sh","/entrypoint.sh"]

@@ -1,0 +1,34 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY WISP - https:\/\/wisp.gg\/",
+    "meta": {
+        "version": "PTDL_v1"
+    },
+    "exported_at": "2022-03-10T17:57:24+00:00",
+    "name": "Dashactyl-Egg",
+    "tag": "",
+    "author": "jamie@colournodes.com",
+    "description": "A Dashactyl Egg, maintained by Jamie_#0001",
+    "image": "quay.io\/jamiegrimwood\/dashactyl-egg:latest",
+    "startup": ".\/entrypoint.sh",
+    "config": {
+        "files": "{}",
+        "startup": "{\r\n    \"done\": \")! For help, type \",\r\n    \"userInteraction\": [\r\n        \"Go to eula.txt for more info.\"\r\n    ]\r\n}",
+        "logs": "{}",
+        "stop": "stop",
+        "custom": "{}"
+    },
+    "scripts": {
+        "installation": {
+            "script": "#!\/bin\/bash\r\necho \"Hello\"",
+            "container": "node:14-bullseye-slim",
+            "entrypoint": "bash"
+        },
+        "update": {
+            "script": null,
+            "container": "alpine:3.4",
+            "entrypoint": "ash"
+        }
+    },
+    "variables": [],
+    "mods": []
+}

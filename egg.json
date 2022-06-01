@@ -1,34 +1,31 @@
 {
-    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY WISP - https:\/\/wisp.gg\/",
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
     "meta": {
-        "version": "PTDL_v1"
+        "version": "PTDL_v2",
+        "update_url": null
     },
-    "exported_at": "2022-03-10T17:57:24+00:00",
+    "exported_at": "2022-06-01T07:58:52-04:00",
     "name": "Dashactyl-Egg",
-    "tag": "",
     "author": "jamie@colournodes.com",
     "description": "A Dashactyl Egg, maintained by Jamie_#0001",
-    "image": "quay.io\/jamiegrimwood\/dashactyl-egg:latest",
+    "features": null,
+    "docker_images": {
+        "quay.io\/jamiegrimwood\/dashactyl-egg:latest": "quay.io\/jamiegrimwood\/dashactyl-egg:latest"
+    },
+    "file_denylist": [],
     "startup": ".\/entrypoint.sh",
     "config": {
         "files": "{}",
-        "startup": "{\r\n    \"done\": \")! For help, type \",\r\n    \"userInteraction\": [\r\n        \"Go to eula.txt for more info.\"\r\n    ]\r\n}",
+        "startup": "{\r\n    \"done\": \"[WEBSITE] The application is now listening on port\"\r\n}",
         "logs": "{}",
-        "stop": "stop",
-        "custom": "{}"
+        "stop": "^C"
     },
     "scripts": {
         "installation": {
             "script": "#!\/bin\/bash\r\necho \"Hello\"",
             "container": "node:14-bullseye-slim",
             "entrypoint": "bash"
-        },
-        "update": {
-            "script": null,
-            "container": "alpine:3.4",
-            "entrypoint": "ash"
         }
     },
-    "variables": [],
-    "mods": []
+    "variables": []
 }

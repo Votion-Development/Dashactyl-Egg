@@ -9,7 +9,7 @@ else
   read proceed;
 
   case "$proceed" in
-    "Y")
+    "Y"|"y")
         echo "Installing Dashactyl...";
 
         git clone https://github.com/Votion-Development/Dashactyl.git /home/container/Dashactyl
@@ -22,7 +22,7 @@ else
         echo "Dashactyl is now installed. Please open settings.yml and follow the guide to fill out the details: https://docs.votion.dev/docs/Dashactyl/configuration";
         exit 0;
         ;;
-    "N")
+    "N"|"n")
         exit 0;
         ;;
     *)

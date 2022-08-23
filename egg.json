@@ -10,7 +10,7 @@
     "description": "A Dashactyl Egg, maintained by DarkNight#8588,
     "features": null,
     "docker_images": {
-        "quay.io\/jamiegrimwood\/dashactyl-egg:latest": "quay.io\/jamiegrimwood\/dashactyl-egg:latest"
+        "quay.io/beastgamer81/dashactyl-v2-egg"
     },
     "file_denylist": [],
     "startup": ".\/entrypoint.sh",

@@ -1,6 +1,7 @@
 FROM node:16-alpine
 
-LABEL maintainer="Dark <dark@bolthost.xyz"
+LABEL maintainer="Dark <dark@bolthost.xyz>"
+LABEL maintainer="Jamie <jamie@falconhosting.co.uk>"
 
 COPY ./entrypoint.sh /entrypoint.sh
 

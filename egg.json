@@ -5,12 +5,12 @@
         "update_url": null
     },
     "exported_at": "2022-06-01T07:58:52-04:00",
-    "name": "Dashactyl-Egg",
+    "name": "Dashactyl Egg",
     "author": "dark@bolthost.xyz",
     "description": "A Dashactyl Egg, maintained by DarkNight#8588",
     "features": null,
     "docker_images": {
-        "quay.io/beastgamer81/dashactyl-v2-egg"
+        "quay.io/beastgamer81/dashactyl-v2-egg": "quay.io/beastgamer81/dashactyl-v2-egg"
     },
     "file_denylist": [],
     "startup": ".\/entrypoint.sh",

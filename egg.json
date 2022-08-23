@@ -7,16 +7,16 @@
     "exported_at": "2022-06-01T07:58:52-04:00",
     "name": "Dashactyl Egg",
     "author": "dark@bolthost.xyz",
-    "description": "A Dashactyl Egg, maintained by DarkNight#8588 & Created by Jamie_#0001",
+    "description": "A Dashactyl Egg, maintained by DarkNight#8588 & Jamie_#0001",
     "features": null,
     "docker_images": {
-        "quay.io/dark-development/dashactyl-v2-egg": "quay.io/dark-development/dashactyl-v2-egg"
+        "quay.io/jamiegrimwood/dashactyl-egg": "quay.io/jamiegrimwood/dashactyl-egg"
     },
     "file_denylist": [],
     "startup": ".\/entrypoint.sh",
     "config": {
         "files": "{}",
-        "startup": "{\r\n    \"done\": \"[WEBSITE] The application is now listening on port\"\r\n}",
+        "startup": "{\r\n    \"done\": \"[Dashactyl] Your Dashactyl instance is now listening on port\"\r\n}",
         "logs": "{}",
         "stop": "^C"
     },

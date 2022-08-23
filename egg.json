@@ -5,25 +5,25 @@
         "update_url": null
     },
     "exported_at": "2022-06-01T07:58:52-04:00",
-    "name": "Dashactyl-Egg",
-    "author": "jamie@colournodes.com",
-    "description": "A Dashactyl Egg, maintained by Jamie_#0001",
+    "name": "Dashactyl Egg",
+    "author": "dark@bolthost.xyz",
+    "description": "A Dashactyl Egg, maintained by DarkNight#8588 & Jamie_#0001",
     "features": null,
     "docker_images": {
-        "quay.io\/jamiegrimwood\/dashactyl-egg:latest": "quay.io\/jamiegrimwood\/dashactyl-egg:latest"
+        "quay.io/jamiegrimwood/dashactyl-egg": "quay.io/jamiegrimwood/dashactyl-egg"
     },
     "file_denylist": [],
     "startup": ".\/entrypoint.sh",
     "config": {
         "files": "{}",
-        "startup": "{\r\n    \"done\": \"[WEBSITE] The application is now listening on port\"\r\n}",
+        "startup": "{\r\n    \"done\": \"[Dashactyl] Your Dashactyl instance is now listening on port\"\r\n}",
         "logs": "{}",
         "stop": "^C"
     },
     "scripts": {
         "installation": {
             "script": "#!\/bin\/bash\r\necho \"Hello\"",
-            "container": "node:14-bullseye-slim",
+            "container": "node:16",
             "entrypoint": "bash"
         }
     },

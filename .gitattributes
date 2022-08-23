@@ -1,5 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
+
 # Don't make git make any change in .sh files
 *.sh -crlf

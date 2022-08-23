@@ -5,17 +5,17 @@ cd /home/container || exit 1;
 if [[ -f "/home/container/index.js" ]]; then
   node index.js
 else
-  echo "index.js not found. Proceed to install Dashactyl? (Y/N)";
+  echo "index.js not found. Proceed to install Dashactyl V2? (Y/N)";
   read proceed;
 
   case "$proceed" in
     "Y"|"y")
         echo "Installing Dashactyl...";
 
-        git clone https://github.com/Votion-Development/Dashactyl.git /home/container/Dashactyl
-        mv /home/container/Dashactyl/** /home/container
-        rm -rf /home/container/Dashactyl
-        mv /home/container/settings-template.yml /home/container/settings.yml
+        git clone https://github.com/Votion-Development/Dashactyl-v2.git /home/container/Dashactyl-v2
+        mv /home/container/Dashactyl-v2/** /home/container
+        rm -rf /home/container/Dashactyl-v2
+        mv /home/container/webconfig-example.yml /home/container/webconfig.yml
 
         yarn install
 

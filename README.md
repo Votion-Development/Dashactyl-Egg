@@ -5,4 +5,4 @@ The egg used to run Dashactyl on Pterodactyl Panel
 
 # Contribution
 
-Jamie_#0001, Chirag350, BabyHarpSeal, Cblaze and Dviih
+DarkNight#8588 and Jamie_#0001

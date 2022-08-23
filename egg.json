@@ -7,7 +7,7 @@
     "exported_at": "2022-06-01T07:58:52-04:00",
     "name": "Dashactyl Egg",
     "author": "dark@bolthost.xyz",
-    "description": "A Dashactyl Egg, maintained by DarkNight#8588",
+    "description": "A Dashactyl Egg, maintained by DarkNight#8588 & Created by Jamie_#0001",
     "features": null,
     "docker_images": {
         "quay.io/dark-development/dashactyl-v2-egg": "quay.io/dark-development/dashactyl-v2-egg"
@@ -23,7 +23,7 @@
     "scripts": {
         "installation": {
             "script": "#!\/bin\/bash\r\necho \"Hello\"",
-            "container": "node:14-bullseye-slim",
+            "container": "node:16",
             "entrypoint": "bash"
         }
     },

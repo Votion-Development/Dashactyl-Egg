@@ -12,7 +12,7 @@ else
     "Y"|"y")
         echo "Installing Dashactyl...";
 
-        git clone https://github.com/Votion-Development/Dashactyl-v2.git /home/container/Dashactyl-v2
+        git clone --branch v2 https://github.com/Votion-Development/Dashactyl.git /home/container/Dashactyl-v2
         mv /home/container/Dashactyl-v2/** /home/container
         rm -rf /home/container/Dashactyl-v2
         mv /home/container/webconfig-example.yml /home/container/webconfig.yml

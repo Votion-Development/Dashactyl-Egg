@@ -19,7 +19,7 @@ else
 
         yarn install
 
-        echo "Dashactyl is now installed. Please open settings.yml and follow the guide to fill out the details: https://docs.votion.dev/docs/Dashactyl/configuration";
+        echo "Dashactyl is now installed. Please open webconfig.yml and follow the guide to fill out the details: https://docs.votion.dev/docs/Dashactyl/configuration";
         exit 0;
         ;;
     "N"|"n")

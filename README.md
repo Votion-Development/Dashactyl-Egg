@@ -5,4 +5,4 @@ The egg used to run Dashactyl on Pterodactyl Panel
 
 # Contribution
 
-DarkNight#8588 and Jamie_#0001
+[BeastGamer81 aka darknight81](https://github.com/beastgamer81) and jamiegrimwood

@@ -6,8 +6,8 @@
     },
     "exported_at": "2022-06-01T07:58:52-04:00",
     "name": "Dashactyl Egg",
-    "author": "dark@bolthost.xyz",
-    "description": "A Dashactyl Egg, maintained by DarkNight#8588 & Jamie_#0001",
+    "author": "dark@zexade.com",
+    "description": "A Dashactyl Egg, maintained by darknight81 & Jamie_#0001",
     "features": null,
     "docker_images": {
         "quay.io/jamiegrimwood/dashactyl-egg": "quay.io/jamiegrimwood/dashactyl-egg"

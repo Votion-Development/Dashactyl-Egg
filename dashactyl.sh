@@ -19,6 +19,8 @@ else
         rm -rf /home/container/Dashactyl
         mv /home/container/webconfig-example.yml /home/container/webconfig.yml
 
+		yq -i '.port = env(SERVER_PORT)' /home/container/webconfig.yml
+
 		yarn install
 		echo "Dashactyl is now installed. Please open webconfig.yml and follow the guide to fill out the details: https://docs.votion.dev/docs/Dashactyl/configuration";
 	;;
